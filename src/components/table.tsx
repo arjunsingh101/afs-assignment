@@ -73,13 +73,16 @@ const MuiTable = ({ data, loading }: TableProps) => {
   };
 
   return (
-    <div>
-      <TextField
-        label="Filter"
-        variant="outlined"
-        value={filter}
-        onChange={handleFilterChange}
-      />
+    <div className="">
+      <div className="flex flex-row justify-end">
+        <TextField
+          label="Filter"
+          variant="outlined"
+          value={filter}
+          onChange={handleFilterChange}
+        />
+      </div>
+
       {loading && <CircularProgress />}
 
       <TableContainer component={Paper} sx={{ marginTop: "20px" }}>

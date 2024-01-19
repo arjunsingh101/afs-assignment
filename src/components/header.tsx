@@ -9,18 +9,17 @@ import Tooltip from "@mui/material/Tooltip";
 import Logo from "../asset/logo.png";
 
 function ResponsiveAppBar() {
- 
   return (
-    <AppBar position="static" sx={{backgroundColor:'#17c7bd'}}>
+    <AppBar position="static" sx={{ backgroundColor: "#17c7bd" }}>
       <Container maxWidth="xl">
-        <Toolbar sx={{display:'flex', justifyContent:'space-between'}} >
-            <Box>
+        <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
+          <Box>
             <img src={Logo} alt="logo" loading="lazy" />
-            </Box>
+          </Box>
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
+            <Tooltip title="Account Details">
               <IconButton sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="Arjun Singh" src="/" />
               </IconButton>
             </Tooltip>
           </Box>

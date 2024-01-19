@@ -43,17 +43,20 @@ Login Page ---
 
  ![Login](https://github.com/arjunsingh101/afs-assignment/assets/88571166/58515489-db3e-459c-b701-fb5c6585c129)
  
-Home Page ---
+ Home Page ---
+ 
+![Home](https://github.com/arjunsingh101/afs-assignment/assets/88571166/fe2c060d-ac2a-457d-b429-9eaf1bfa7683)
 
-![Home](https://github.com/arjunsingh101/afs-assignment/assets/88571166/032858c0-be4a-4e42-ada5-07f5466060fd)
 
 Table Data with Filter ---
 
-![WithFilter](https://github.com/arjunsingh101/afs-assignment/assets/88571166/00abecd9-5eaf-440c-bc22-1fe31e42e0b8)
+![WithFilter](https://github.com/arjunsingh101/afs-assignment/assets/88571166/39d9c24d-c081-4ee1-8a4d-df92f1226893)
+
 
 Table Data with Sorting --
 
-![withSort](https://github.com/arjunsingh101/afs-assignment/assets/88571166/9caa88b8-aba4-4636-9b6d-ff2f2cc8270d)
+![withSort](https://github.com/arjunsingh101/afs-assignment/assets/88571166/2a8d69cd-cf1d-4b0d-ae11-df4a429d49f2)
+
 
 
 

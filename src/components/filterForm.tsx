@@ -45,6 +45,10 @@ const FilterForm = () => {
       setLoading(false);
     }
   };
+  const clearData = () => {
+    setFilterValue("");
+    setData([]);
+  };
   const handleFilterChange = (e: ChangeEvent<HTMLInputElement>) => {
     setFilterValue(e.target.value);
     if (e.target.value === "" || e.target.value === undefined) {
@@ -80,7 +84,7 @@ const FilterForm = () => {
               />
             </div>
           </div>
-          <div>
+          <div className="flex flex-row gap-6">
             <Button
               variant="outlined"
               sx={{ width: "100px", height: "40px" }}
@@ -88,6 +92,14 @@ const FilterForm = () => {
               disabled={filterValue === "" || filterValue === undefined}
             >
               Search
+            </Button>
+            <Button
+              variant="outlined"
+              sx={{ width: "100px", height: "40px" }}
+              onClick={clearData}
+              disabled={filterValue === "" || filterValue === undefined}
+            >
+              Clear
             </Button>
           </div>
         </div>

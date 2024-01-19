@@ -43,8 +43,14 @@ Login Page ---
  ![Login](https://github.com/arjunsingh101/afs-assignment/assets/88571166/58515489-db3e-459c-b701-fb5c6585c129)
  
 Home Page ---
-
 ![Home](https://github.com/arjunsingh101/afs-assignment/assets/88571166/032858c0-be4a-4e42-ada5-07f5466060fd)
+
+Table Data with Filter ---
+![WithFilter](https://github.com/arjunsingh101/afs-assignment/assets/88571166/00abecd9-5eaf-440c-bc22-1fe31e42e0b8)
+
+Table Data with Sorting --
+![withSort](https://github.com/arjunsingh101/afs-assignment/assets/88571166/9caa88b8-aba4-4636-9b6d-ff2f2cc8270d)
+
 
 
 
